@@ -123,16 +123,5 @@
 //         console.log("Informe um valor valido : verde , amarelo ou vermelho");
 //         break;
 
-let contador = 1;
-let numeros = [1,2,3, 0]
-while(contador <= 10){
-    console.log(contador);
-    contador++;
-}
 
-
-// let nome = "Mateus";
-
-// console.log(numeros[0]);
-// console.log(nome[220]);
 
