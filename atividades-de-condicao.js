@@ -107,23 +107,32 @@
 
 // questão 1 -> switch case
 
-let dia = 3;
+// let dia = 3;
 
-switch (dia) {
-    case "verde":
-        console.log("Siga em frente");
-        break;
-    case "amarelo":
-        console.log("Atenção");
-        break;
-    case "verde":
-        console.log("PARE");
-        break;
-    default:
-        console.log("Informe um valor valido : verde , amarelo ou vermelho");
-        break;
+// switch (dia) {
+//     case "verde":
+//         console.log("Siga em frente");
+//         break;
+//     case "amarelo":
+//         console.log("Atenção");
+//         break;
+//     case "verde":
+//         console.log("PARE");
+//         break;
+//     default:
+//         console.log("Informe um valor valido : verde , amarelo ou vermelho");
+//         break;
+
+let contador = 1;
+
+while(contador <= 10){
+    console.log(contador);
+    contador++;
 }
 
+let numeros = [1,2,3]
+let nome = "Mateus";
 
-
+console.log(numeros.length);
+console.log(nome.length);
 
